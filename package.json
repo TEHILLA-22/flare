@@ -1,0 +1,50 @@
+{
+  "name": "flare",
+  "version": "1.0.0",
+  "description": "A blazing-fast reactive UI framework with built-in routing, components, and reactivity.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "ui",
+    "framework",
+    "reactivity",
+    "component",
+    "router",
+    "typescript",
+    "spa",
+    "frontend"
+  ],
+  "author": "Tehilla Odjoji",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehilla-22/flare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tehilla-22/flare/issues"
+  },
+  "homepage": "https://github.com/yourusername/flare#readme"
+}

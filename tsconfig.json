@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist",
+    "types": ["node"],
+    "jsx": "preserve"
+  },
+  "include": ["src"]
+}
