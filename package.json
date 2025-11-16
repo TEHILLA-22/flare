@@ -1,5 +1,5 @@
 {
-  "name": "flare",
+  "name": "flare-ella",
   "version": "1.0.0",
   "description": "A blazing-fast reactive UI framework with built-in routing, components, and reactivity.",
   "main": "dist/index.js",
@@ -15,6 +15,7 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
+    "dev": "vite",
     "clean": "rm -rf dist"
   },
   "keywords": [
@@ -46,5 +47,5 @@
   "bugs": {
     "url": "https://github.com/tehilla-22/flare/issues"
   },
-  "homepage": "https://github.com/yourusername/flare#readme"
+  "homepage": "https://github.com/tehilla-22/flare#readme"
 }
